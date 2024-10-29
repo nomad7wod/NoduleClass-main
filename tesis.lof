@@ -1,0 +1,54 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Perceptrón}}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Perceptrón Multicapa}}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Enfoque del Machine Learning}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Metodología de implementación}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Matriz de Confusión}}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Cronograma de actividades}}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Arquitectura híbrida CNN + ViT}}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Ejemplo de imágenes del conjunto de datos de la Universidad de Colombia}}{28}{figure.caption.20}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Ejemplo de archivo XML del conjunto de datos de la Universidad de Colombia}}{28}{figure.caption.21}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Ejemplo de imágenes del conjunto de datos de Zhujiang Hospital of Southem Medical University}}{29}{figure.caption.22}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Ejemplo de archivo CSV del conjunto de datos de Zhujiang Hospital of Southem Medical University}}{30}{figure.caption.23}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Gráfica circular de conjunto de datos de entrenamiento}}{31}{figure.caption.24}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Gráfica circular de conjunto de datos de prueba}}{32}{figure.caption.25}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Nueva distribución de ficheros para los datos}}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Arquitectura de Red Generadora}}{36}{figure.caption.27}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Arquitectura de Red Discriminadora}}{36}{figure.caption.28}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Parte final del entrenamietno del DCGAN}}{37}{figure.caption.29}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Plot de pérdidas de las red Generadora y Discriminadora}}{38}{figure.caption.30}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Imágenes de ultrasonido de nódulos tiroideos generados y reales}}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Parte final del entrenamietno del DCGAN con imágenes de nódulos malignos}}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Plot de pérdidas de las red Generadora y Discriminadora de imágenes de nódulos malignos}}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Imágenes de ultrasonido de nódulos tiroideos generados y reales (DCGAN de imágenes de nódulos malignos)}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Gráfica circula de data de entrenamiento balanceada}}{42}{figure.caption.35}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Proceso de entrenamiento del modelo n°1}}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Proceso de entrenamiento del modelo n°2}}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Proceso de entrenamiento del modelo n°3}}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Proceso de entrenamiento del modelo n°4}}{47}{figure.caption.42}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Proceso de entrenamiento del modelo n°5}}{48}{figure.caption.44}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Proceso de entrenamiento del modelo n°6}}{49}{figure.caption.46}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Proceso de entrenamiento del modelo n°7}}{50}{figure.caption.48}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Proceso de entrenamiento del modelo n°8}}{51}{figure.caption.50}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Proceso de entrenamiento del modelo n°9}}{52}{figure.caption.52}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Proceso de entrenamiento del modelo n°10}}{53}{figure.caption.54}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Proceso de entrenamiento del modelo n°11}}{54}{figure.caption.56}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Proceso de entrenamiento del modelo n°12}}{55}{figure.caption.58}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Proceso de entrenamiento del modelo n°13}}{56}{figure.caption.60}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Proceso de entrenamiento del modelo n°14}}{57}{figure.caption.62}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Proceso de entrenamiento del modelo n°15}}{57}{figure.caption.64}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Proceso de entrenamiento del modelo n°16}}{58}{figure.caption.66}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Proceso de entrenamiento del modelo n°17}}{59}{figure.caption.68}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Proceso de entrenamiento del modelo n°18}}{60}{figure.caption.70}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Proceso de entrenamiento del modelo n°19}}{61}{figure.caption.72}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Proceso de entrenamiento del modelo n°20}}{62}{figure.caption.74}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Proceso de entrenamiento del modelo n°21}}{63}{figure.caption.76}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Proceso de entrenamiento del modelo n°22}}{64}{figure.caption.78}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Proceso de entrenamiento del modelo n°23}}{65}{figure.caption.80}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Proceso de entrenamiento del modelo n°24}}{66}{figure.caption.82}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Proceso de entrenamiento del modelo híbrido ViT + ResNet50}}{68}{figure.caption.84}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Proceso de entrenamiento del modelo híbrido ViT + VGG16}}{69}{figure.caption.86}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Proceso de entrenamiento del modelo híbrido de Google}}{70}{figure.caption.88}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Cargado de imágenes de ultrasonido para prueba del modelo}}{72}{figure.caption.91}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Prueba de modelo con imágen de ultrasonido de nódulo maligno}}{73}{figure.caption.92}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Prueba de modelo con imágen de ultrasonido de nódulo benigno}}{74}{figure.caption.93}%

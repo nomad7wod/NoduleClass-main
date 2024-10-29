@@ -1,0 +1,237 @@
+\subsection{Deep Learning}
+
+El Deep Learning o Aprendizaje Profundo es una rama del Machine Learning que conforma varios tipos de algoritmos y enfoques mucho más amplios. Este involucra tratar a los problemas que requiere mayor generalización como lo es la visión por computadora y el reconocimiento de voz. Es decir, estos problemas generales se refieren a problemas que los humanos pueden resolver con facilidad. El Deep Learning involucra al Aprendizaje Supervisado, No Supervisado y el Aprendizaje por Refuerzo. El concepto de “profundidad” se refiere a la característica de sus enfoques en usar muchas capas de redes neuronales artificiales, donde cada una de estas realiza una operación especial, para que en conjunto su complejidad y potencia de resolución de problemas sea mayor. \parencite{bk_hurbans2020grokking}
+
+%En el caso de esta investigación, una de las técnicas del Deep Learning a usar son las Convoluciones. Esta técnica permite la extracción de características de imágenes para posteriormente realizar su clasificación con respecto a estos. En el proceso de convolución es importante mencionar a los filtros. Estos contienen pesos que son multiplicados por los valores de los pixeles de una imagen, para que finalmente se obtenga un nuevo valor de pixel \parencite{bk_moroney2020aiandml}. En la Figura \ref{2:fig201} se presenta un ejemplo gráfico de convolución 2D en una imagen del conjunto de datos Fashion MNIST.
+
+El aprendizaje profundo (Deep Learning) ha revolucionado el campo de la inteligencia artificial y, en particular, el de la visión por computadora. Se basa en el uso de redes neuronales artificiales con múltiples capas, que permiten aprender representaciones jerárquicas de datos. Este enfoque ha demostrado ser particularmente efectivo en tareas de clasificación y detección de objetos debido a su capacidad para procesar grandes volúmenes de datos y extraer características complejas de imágenes.
+
+
+El aprendizaje profundo se inspira en la estructura y funcionamiento del cerebro humano, donde las neuronas procesan información y transmiten señales. Las redes neuronales profundas (DNNs, por sus siglas en inglés) se componen de capas de neuronas, donde cada capa transforma la entrada en una representación más abstracta. Por ejemplo, en una red convolucional, las capas iniciales pueden detectar bordes y texturas, mientras que las capas más profundas pueden reconocer formas y objetos completos.
+
+Un modelo popular en el campo de la detección de objetos es la red neuronal convolucional (CNN), que utiliza operaciones de convolución para extraer características espaciales de las imágenes. Según Goodfellow, Bengio y Courville (2016), "las redes neuronales convolucionales han sido utilizadas exitosamente para el reconocimiento de imágenes, superando a otros enfoques anteriores en términos de precisión y eficiencia" (Goodfellow et al., 2016).
+
+En la detección de objetos, los modelos de aprendizaje profundo han permitido avances significativos. Por ejemplo, la arquitectura YOLO (You Only Look Once) es un modelo de detección en tiempo real que divide la imagen en una cuadrícula y predice las cajas delimitadoras y las clases de los objetos simultáneamente. Este enfoque ha demostrado ser rápido y preciso, lo que lo hace ideal para aplicaciones en tiempo real.
+
+Un estudio de Redmon et al. (2016) sobre YOLO destaca que "la capacidad de YOLO para procesar imágenes en tiempo real sin sacrificar la precisión lo convierte en una herramienta valiosa para tareas de detección de objetos en diversas aplicaciones, desde vehículos autónomos hasta monitoreo de infraestructuras" (Redmon et al., 2016).
+
+Con el auge de arquitecturas más avanzadas, como las redes Transformer, el aprendizaje profundo ha continuado evolucionando. Modelos como DETR (DEtection TRansformer) han mostrado un enfoque novedoso al tratar la detección de objetos como un problema de secuencia a secuencia, mejorando la precisión en tareas complejas de detección y localización.
+
+Investigaciones recientes han demostrado que las arquitecturas basadas en Transformers, combinadas con técnicas de aprendizaje profundo, ofrecen mejoras en la precisión y capacidad de generalización en comparación con las redes convolucionales tradicionales. Según Carion et al. (2020), "DETR logra una alta precisión en la detección de objetos al abordar el problema como una tarea de atención, permitiendo una mejor captura de relaciones espaciales en las imágenes" (Carion et al., 2020).
+
+El aprendizaje profundo ha transformado la manera en que se aborda la detección de objetos, proporcionando herramientas poderosas para la automatización y el análisis en diversos dominios. La continua evolución de las arquitecturas de redes neuronales promete aún más avances en la precisión y eficiencia de estas tecnologías, lo que es fundamental para aplicaciones críticas como el mantenimiento de infraestructuras viales y la seguridad pública.
+\begin{comment}
+	
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.80\textwidth]{2/figures/cnn_fash_mnist.png}
+		\caption[Convolución de imagen de Fashion MNIST]{Convolución de imagen de Fashion MNIST. \\
+		Fuente: \cite{bk_moroney2020aiandml}. \textit{AI and Machine Learning for Coders}.}
+		\label{2:fig201}
+	\end{center}
+\end{figure}
+
+Con un filtro de 3x3 como se muestra en la imagen, se puede modificar el valor del pixel. Este proceso se repite con cada pixel en imagen. Finalmente, se obtiene una imagen nueva conocida como una imagen filtrada. \parencite{bk_moroney2020aiandml} En el ejemplo anterior, el nuevo valor del pixel original 192 será 577, pues este es el resultado de multiplicar, y posteriormente sumar, los pesos del filtro con el valor del pixel y sus vecinos.
+
+Existen distintos tipos de filtros que modifican y otorgan distintos tipos de resultados. Como ejemplo se presenta la Figura \ref{2:fig202} y la Figura \ref{2:fig203}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/cnn_filtro_vert.png}
+		\caption[Convolución de imagen con filtro de líneas verticales]{Convolución de imagen con filtro de líneas verticales. \\
+		Fuente: \cite{bk_moroney2020aiandml}. \textit{AI and Machine Learning for Coders}.}
+		\label{2:fig202}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/cnn_filtro_hori.png}
+		\caption[Convolución de imagen con filtro de líneas horizontales]{Convolución de imagen con filtro de líneas horizontales. \\
+		Fuente: \cite{bk_moroney2020aiandml}. \textit{AI and Machine Learning for Coders}.}
+		\label{2:fig203}
+	\end{center}
+\end{figure}
+
+El primer filtro realiza modificaciones a una imagen original para finalmente obtener otra imagen distinta en donde se resaltan las líneas verticales. Caso contrario pasa con el segundo filtro, donde la imagen original es modificada para resaltar sus líneas horizontales. Así, existen distintos tipos de filtros con distintos pesos. Cada uno de estos permite resaltar en las imágenes, a través de modificaciones en sus pixeles, sus características más importantes que serán de utilidad para diferenciar entre una clase u otra de un conjunto de imágenes. También se podría decir que esta técnica de aplicar convoluciones permite reducir la cantidad de información presente en las imágenes, entonces se podría aprender o encontrar un conjunto de filtros específicos capaces de reducir la gran cantidad de información de las imágenes en características que estén relacionadas a sus respectivas etiquetas \parencite{bk_moroney2020aiandml}.
+
+Para reducir la cantidad de información presente en las imágenes, manteniendo al mismo tiempo las características obtenidas por las convoluciones, es necesario aplicar otra técnica entro del mundo del Deep Learning.
+
+El proceso de pooling consiste en eliminar cierta cantidad de pixeles en una imagen, mientras se mantienen las partes resaltantes de la misma. Este proceso normalmente se realiza con agrupaciones de 2x2 en los pixeles de una imagen. Estas agrupaciones también son conocidos como pool. Dentro de cada uno de estas se selecciona el máximo valor de pixel. El proceso se repite con nuevos grupos de pixeles para finalmente obtener una nueva imagen de tamaño considerablemente reducido. \parencite{bk_moroney2020aiandml} En la Figura \ref{2:fig204} se presenta un ejemplo gráfico.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{2/figures/cnn_pool_examp.png}
+		\caption[Ejemplo de max-pooling con un pool de 2x2]{Ejemplo de max-pooling con un pool de 2x2. \\
+		Fuente: \cite{bk_moroney2020aiandml}. \textit{AI and Machine Learning for Coders}.}
+		\label{2:fig204}
+	\end{center}
+\end{figure}
+
+La imagen original de 4x4 pixeles, luego de ser aplicado el proceso de pooling, se obtiene una imagen reducida de 2x2 pixeles. De manera general, la imagen redujo a la cuarta parte de la cantidad original de pixeles.
+
+Con estas dos técnicas del Deep Learning se han ido desarrollando distintas arquitecturas de redes neurales en la última década. Algunas más complejas y con más capas que otras. Cada una de estas han logrado desempeñarse de forma satisfactoria con el conjunto de datos con el que se han entrenado, demostrando el gran potencial de la Redes Neuronales Convolucionales o CNN.
+
+Algunas de las arquitecturas más conocidas y que han sido usadas en gran variedad de investigaciones son los VGG, ResNet, Inception y DenseNet.
+
+La arquitectura VGG o VGGNet es una red neuronal artificial con una profundidad de 16 o 19 capas (dependiendo de la versión que se analice) y usa pequeños filtros de convolución de tamaño 3x3 a través de estas. Este modelo participó en el ImageNet Challenge 2014, donde logró el primer puesto en las tareas de localización y segundo puesto en clasificación. Además, tiene la alta capacidad de generalización en otros conjuntos de datos, es decir, es capaz de obtener buenos resultados con imágenes distintas a las usadas para su entrenamiento. \parencite{pr_simonyan2015vdcn}
+
+Otra arquitectura bastante difundida en el mundo del Deep Learning y las CNN es ResNet. Esta arquitectura nace de la premisa del aumento de la dificultad de entrenar las redes neuronales profundas. Con el objetivo de facilitar este proceso se añade a las ya conocidas CNN el concepto de residual, para obtener redes residuales que sean mucho más fáciles de optimizar y capaces de obtener mejor desempeño a más grande sea la profundidad de la red. El modelo tuvo 152 capas, ocho veces más grande que las arquitecturas VGG, y fue evaluada con el conjunto de datos ImageNet. \parencite{pr_he2016deepres}
+
+Inception es una arquitectura que obtuvo un alto desempeño en las tareas de clasificación y detección en el ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14). La principal distinción de este modelo es el uso de los recursos informáticos a través de la red. Esto significa que mientras más aumente la complejidad del modelo a través de su profundidad, los recursos computacionales no variarán a gran escala como se esperaría. Esto se logra a través del uso de módulos de Inception en algunas capas de la arquitectura en general. Los distintos módulos se encuentran apilados unos sobre otros y con algunas capas max-pooling. Dentro de esta arquitectura, se tiene a GoogLeNet, que no es más que una versión de Inception de 22 capas (este modelo fue el presentado a ILSVRC14). \parencite{pr_szegedy2015goingdwc}
+
+DenseNet nace con la premisa de que las CNN pueden obtener mejores desempeños si se tienen conexiones cortas entre las capas cerca de la entrada y salida de la red. La propuesta de esta red consiste en establecer una conexión de cada capa con todas las demás capas de la misma red. Esto trae grandes ventajas como la reducción del problema de gradiente de fuga, fomenta la reutilización de características extraídas en previas capas, además de disminuir la cantidad de parámetros. El modelo fue evaluado con los conjuntos de datos CIFAR-10, CIFAR-100, SVHN e ImageNet para la tarea de reconocimiento de objetos. \parencite{pr_huang2016densconn} En la Figura \ref{2:fig205} se muestra una representación de DenseNet con 5 capas.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{2/figures/densenet_5lay.png}
+		\caption[DenseNet con 5 capas]{DenseNet con 5 capas. \\
+		Fuente: \cite{pr_huang2016densconn}. \textit{Densely Connected Convolutional Networks}.}
+		\label{2:fig205}
+	\end{center}
+\end{figure}
+
+% Las tareas relacionadas al procesamiento de imágenes como la segmentación, detección de objetos y clasificación es actualmente dominada por las redes neuronales convolucionales explicadas anteriormente; sin embargo, gracias al gran avance y divulgación de los modelos basados en Transformers, se ha visto el surgimiento de un nueva clase de arquitecturas que prometen mejorar el desempeño de los actuales modelos dominantes: los Vision Transformer (ViT).
+
+A pesar del gran desempeño del los modelos de basados den CNN, los últimos años han aparecido nuevas y prometedoras arquitecturas capaces de superarlos.
+
+Según la investigación original presentada por \cite{pr_dosovitskiy2021animageisworth}, los modelos Transformer, dominantes actuales en tareas de procesamiento de lenguaje natural (NLP), se han convertido en el modelo predilecto cuando se trata de manejo de texto, esto debido a su capacidad de utilizar los recursos computacionales de forma eficiente y su escalabilidad, permitiendo así obtener modelos de; por ejemplo, 100 mil millones de parámetros.
+
+% A diferencia de las tareas de NLP, la visión por computadora tuvo mayores problemas para adaptar este nuevo tipo de arquitecturas a sus tareas específicas.
+
+Según \cite{pr_vaswani2017attentionisallneed} los Transformer tiene una arquitectura similar a los modelos Neural Sequence Transduction que contienen dos partes importantes: encoder y decoder. El encoder se encarga de realizar un mapeo de las entradas a secuencias continuas. El decoder recibe este último para finalmente generar un secuencia de símbolos de forma autorregresiva, generando un símbolo a la vez mientras utiliza los anteriores símbolos ya generados como entrada. El modelo Transformer sigue este mismo comportamiento a través de su mecanismo característico de Self-Attention junto a sus capas conectadas completamente.
+
+En el encoder de las arquitecturas Transformer se tienen 6 capas que se componen de otras 2 subcapas: Multi-Head Self-Attention y Fully Connected Feedforward en función a su posición. Además, entre estas dos subcapas, se aplicaron conexiones residuales y capas de normalización. Finalmente, también se definió una capa de Embedding. La dimensión de los vectores generados por todas estas capas es de 512.
+
+En el decoder también se tienen 6 capas idénticas entre sí. Además, similar al encoder, las dos capas Multi-Head y Fully Connected también están presentes con la diferencia de una nueva subcapa Multi-head que recibe como entrada la salida del encoder. Otra característica distintiva del decoder es el masking aplicado a la capa Multi-Head que surge como medio para evitar que las posiciones tengan la capacidad de atender a las siguientes posiciones. Finalmente, también se emplearon conexiones residuales y capas de normalización de igual manera que en el encoder.
+
+El proceso de Attention en los Transformers se define como el mapeo de vectores de alta dimensionalidad (query, key y value) a una salida (también vector de alta dimensión). Esta salida se calcula mediante a través de pesos, que se obtienen con una función de compatibilidad entre el query y el key, y que son asignados al vector value para finalmente realizar una suma ponderada con estos. Todo este proceso se realiza de forma paralela en sus proyecciones lineales donde sus salidas serán concatenadas y proyectadas nuevamente. A este proceso, se le conoce como Multi-Head Attetion.
+
+Además de las capas de atención, tanto el encoder como decoder del Transformer tienen una subcapa de Fully Connected Feedforward en función a la posición. Este tipo de capa aplica una transformación lineal usando además la función de activación ReLU.
+
+Las capas Embedding son usadas para llevar los token de entradas a vectores de alta dimensionalidad. Mientras que las funciones de transformación lineal y softmax cambian la salida del decoder para obtener las probabilidades predichas.
+
+Junto a los Embedding, y tanto en el encoder y decoder del Transformer, también se definen los Positional Encoding. Estos se encargan de otorgar información sobre la posición de los token en la secuencia a la que pertenecen. Estos tienen la misma dimensión que los propios Embedding.
+
+Cada una de las partes de la arquitectura de los Transformer descritos anteriormente se puede observar de forma gráfica en la Figura \ref{2:fig213}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{2/figures/transformer_arch.PNG}
+		\caption[Arquitectura del modelo Transformer]{Arquitectura del modelo Transformer. \\
+		Fuente: \cite{pr_vaswani2017attentionisallneed}. \textit{Attention is all you need}.}
+		\label{2:fig213}
+	\end{center}
+\end{figure}
+
+En el contexto de la visión por computadora, \cite{pr_dosovitskiy2021animageisworth} menciona que los primeros intentos de uso de esta arquitectura se basaban en aprovechar la capacidad de Self-Attention de los Transformer y combinarlo con los dominantes modelos CNN. Estos intentos de obtener los excelentes resultados de los Transformer en las tareas de visión por computadora no obtenían los resultados de los modelos de mayor desempeño como son los basados en la arquitectura de ResNet.
+
+Debido a esto y al gran potencial que tenían las arquitecturas basadas en Transformers, propusieron el uso de estas arquitecturas aplicadas de forma directa a imágenes; es decir, aplicando la menor cantidad de cambios antes de ingresar al mismo Transformer. El proceso exacto de cómo funciona su arquitectura se explicará más adelante.
+
+La gran ventaja de este nuevo tipo de modelos se basa en la cantidad de datos con la que es entrenado. 
+
+En el caso de usar una pequeña cantidad de imágenes para el entrenamiento se obtienen resultados no favorables, llegando a tener un bajo rendimiento comparado a los modelos basados en CNN. Sin embargo, al realizar su entrenamiento con una mayor cantidad de datos, los Vision Transformer (como se le nombró a este nuevo tipo de arquitectura) obtuvieron mejores resultados que los modelos dominantes en las mismas tareas de visión por computadora.
+
+A diferencia de los Transformer dedica a las tareas de NLP que reciben como entrada token embeddings de una sola dimensión, las imágenes son de dos dimensiones (H, W) y una cantidad de canales (C), lo que dificulta su ingreso directo a este tipo de arquitecturas. Es por esto que es necesario aplicar una división de las imágenes en patches 2D que posteriormente serán aplanados e ingresados al Transformer como haría normalmente los token embeddings.
+
+Estos patches deben tener un tamaño constante P, es decir que se deben obtener divisiones de las imágenes de tamaño P x P. Esto conlleva a que el número de patches final sea igual a $N = HW / P^2$.
+
+Una vez se tienen los N patches, se realiza su aplanamiento y, posteriormente, se mapean en D dimensiones (tamaño del vector latente usado en el Transformer) a través de una proyección lineal capaz de ser entrenada.
+
+Ya obtenidos estos patch embedding, se añade uno nuevo pero con la capacidad de ser aprendible. Estos se agrupan en una secuencia que ingresarán posteriormente al Transforme encoder. Cabe resaltar que, luego de pasar por el encoder, este último embedding añadido representará a la imagen.
+
+A los ya mencionados patch embedding también se le agrega otro tipo de embedding capaz de mantener información relacionada a la posición de cada patch. Estos embedding son 1D y aprendibles. Finalmente, estos serán ingresados juntos con los originales embeddings a Transformer encoder.
+
+En la parte final de la arquitectura se tiene un MLP con la principal tarea de realizar la clasificación de las imágenes. Este MLP consta de una sola capa oculta en la etapa de entrenamiento inicial del modelo, y con una sola capa lineal en la etapa de fine-tuning.
+
+El bloque de Transformer encoder está compuesto por distintos bloques como los multi headed self attention (MSA), MLP y los Layernorm (LN). Estos distintos bloques se van alternando de forma específica, introduciendo además conexiones residuales luego del MSA y MLP.
+
+Toda la arquitectura de los ViT se puede resumir con la Figura \ref{2:fig206}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/vit_arquitecture.png}
+		\caption[Arquitectura del modelo ViT]{Arquitectura del modelo ViT. \\
+		Fuente: \cite{pr_dosovitskiy2021animageisworth}. \textit{AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE}.}
+		\label{2:fig206}
+	\end{center}
+\end{figure}
+
+\subsection{Transfer Learning}
+\cite{bk_geron2022handml} nos menciona que el Transfer Learning o Transferencia de Aprendizaje es un técnica usada en el campo de Deep Learning que permite el uso de algunas capas de un modelo ya definido y entrenado previamente en un nuevo modelo que necesite ser entrenado en una tarea similar al que se desarrolla el modelo original. Las capas destinadas al reuso son normalmente las más cercanas a la entrada o también conocidas como capas inferiores. El beneficio de usar esta técnica radica en dos puntos importantes: cantidad de datos requeridos y velocidad de entrenamiento del modelo; es decir, la cantidad de datos que se deben usar para entrenar un modelo de alto desempeño se reduce considerablemente, mientras que el tiempo requerido para terminar este proceso es menor comparándolo a si lo entrenaran desde cero.
+
+Para que esta técnica funcione debidamente, las capas más cercanas a la salida, conocidas también como capas de alto nivel, deben ser reemplazadas, esto debido a que son más específicas de las tareas del modelo original. Esto también incluye a la capa final, ya que posiblemente no tenga la cantidad de salidas necesarias para completar satisfactoriamente la nueva tarea.
+
+En la Figura \ref{2:fig211} se presenta de forma gráfica la técnica.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{2/figures/transfer_learning.PNG}
+		\caption[Ejemplo de Transfer Learning]{Ejemplo de Transfer Learning. \\
+		Fuente: \cite{bk_geron2022handml}. \textit{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}.}
+		\label{2:fig211}
+	\end{center}
+\end{figure}
+
+\subsection{Data Augmentation}
+
+Según \cite{bk_geron2022handml} el Aumento de Datos o Data Augmentation es una técnica de regularización que permite reforzar la cantidad de muestras en un conjunto de datos. Esto se realiza a través de la generación de nuevas instancias similares a los originales; es decir, las personas no deberían ser capaces de diferenciar una imagen generada de una del propio conjunto de datos.
+
+Para generar estas nuevas muestras, normalmente se aplican diferentes transformaciones a las instancias del conjunto de datos original. Estas transformaciones pueden ser; por ejemplo, una simple rotación o recorte de la imagen, siempre y cuando no altere por completo su sentido como es el caso de voltear una imagen de texto de forma horizontal. 
+
+El principal beneficio de esta técnica es que permite reducir el sobreajuste de los modelos entrenados. 
+
+En la Figura \ref{2:fig212} se muestran algunas transformaciones que se pueden hacer al aplicar el Aumento de Datos. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{2/figures/data_aug.PNG}
+		\caption[Ejemplo de Data Augmentation]{Ejemplo de Data Augmentation. \\
+		Fuente: \cite{bk_geron2022handml}. \textit{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}.}
+		\label{2:fig212}
+	\end{center}
+\end{figure}
+
+\subsection{Nódulos Tiroideos}
+Para entender qué es un nódulo tiroideo, primero se debe sabes qué es la tiroides. Este es una glándula localizada en el cuello del cuerpo humano que se encarga de producir hormonas que regulan el metabolismo. Los nódulos que aparecen en esta glándula son los más comunes, y se generan debido a un excesivo crecimiento de las células en esa área, estos pueden ser de textura dura o quísticas. \parencite{pr_deng2022autclass}
+
+La Figura \ref{2:fig207} muestra a la glándula en una imagen tomográfica.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.55\textwidth]{2/figures/gland_thyroid.png}
+		\caption[Imagen tomográfica de glándula de tiroides]{Imagen tomográfica de glándula de tiroides. \\
+		Fuente: \cite{pr_binboga2019thyroid}. \textit{Thyroid Anatomy}.}
+		\label{2:fig207}
+	\end{center}
+\end{figure}
+
+\cite{pr_shin2016ultradiag} mencionan que existen algunas características de los nódulos en la tiroides que pueden ser analizados para realizar una clasificación si es de carácter benigno o maligno. A continuación, se presentan aquellos más resaltantes.
+
+El tamaño de nódulos en ciertos casos puede determinar el tipo con el que se está tratando; sin embargo, esto no está debidamente comprobado, a pesar de que normalmente el riesgo de ser maligno de un nódulo es más alto en aquellos de mayor tamaño. Esto principalmente se debe a que los nódulos benignos también pueden llegar a un tamaño considerable, pero con una mayor cantidad de tiempo. Lo que sí puede significar un probable nódulo maligno es un rápido crecimiento de un nódulo sólido.
+
+El contenido interno de un nódulo está determinado por el ratio entre su parte quística y su parte sólida. Los nódulos malignos con contenido sólido poseen mayor riesgo de ser malignos que aquellos con contenido parcialmente quístico.
+
+La ecogenicidad de los nódulos se mide de acuerdo al nivel de brillo en las imágenes de ultrasonido con respecto a otras partes de la imagen. Esto quiere decir que un nódulo es hipoecoico si su nivel de brillo en la imagen es menor con respecto a otra parte de la imagen, específicamente se compara con el músculo anterior del cuello o el parénquima tiroideo. La mayoría de los tumores tiroideos son hipoecoicos, y existe mayor riesgo de que los nódulos con la misma característica sean malignos.
+
+La forma y orientación de los nódulos también pueden determinar si son o no malignos. La manera en que los nódulos malignos crecen es de manera centrífuga y a través del plano del tejido, al igual que los benignos; sin embargo, estos crecen de manera paralela. La forma redonda u ovoide de los nódulos se encuentra en aquellos de carácter benigno; sin embargo, no son propias de este. Una característica mucho más específica de los nódulos de carácter malignos es su orientación no paralela, es decir, son más altos que anchos.
+
+Finalmente, el margen de los nódulos también puede dar información del tipo con el que se trata. Una característica que sugiere que un nódulo es maligno es un margen espiculado o micro tubulado.
+
+\subsection{Ecografía y las imágenes de ultrasonido}
+Según \cite{pr_herrera2017diseimp}, la ecografía, que es una técnica de diagnóstico en donde se usan imágenes generadas por ultrasonido, es comúnmente desarrollado en las áreas de cardiología, ginecología, y otras más relacionadas. La popularidad de esta técnica se basa en la capacidad de las imágenes de alta calidad que se obtienen de este proceso, además de no ser un método invasivo o de radiación como muchos otros de su tipo.
+
+Los sistema encargados de extraer las imágenes de ultrasonido son compuestos de distintas sensores que generan ondas de sonido para posteriormente analizar la respuesta de la interacción física con el campo de interés. Estas señales recibidas de regreso son digitalizados por una parte electrónica delantera que también transforman estos datos crudos en la imagen final. El funcionamiento de este proceso depende de la configuración de los sensores, el método usado para obtener las imágenes y las características de área de interés. \parencite{pr_camacho2022ultrasonicimg}
+
+Algunas imágenes de ultrasonido de nódulos tiroideos se muestran en la Figura \ref{2:fig210}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{2/figures/imagenes_ultrasonido_originales.png}
+		\caption[Imágenes de ultrasonido de nódulos tiroideos]{Imágenes de ultrasonido de nódulos tiroideos. \\
+		Fuente: \cite{pr_JERBI2023autoclassViTGAN}. \textit{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}.}
+		\label{2:fig210}
+	\end{center}
+\end{figure}
+\end{comment}
