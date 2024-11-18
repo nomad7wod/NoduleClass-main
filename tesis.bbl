@@ -472,6 +472,115 @@
       \verb 10.1016/j.sciaf.2023.e01679
       \endverb
     \endentry
+    \entry{9451544}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=693dfc50c48b04de716d7c709c7caa80}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zewen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9419610d270972bdd30e81d791d61b96}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee5c593d1df705b04d415b2b51c3c461}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db5dbc87671e893ede1502d00ee0a37a}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Shouheng},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21b6969d672728cb4ea4381d1d8706b5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c23b4d48d24f65851e2fc11593256cc}
+      \strng{fullhash}{41b3108995a1e1f78624a8a97d60ac03}
+      \strng{bibnamehash}{41b3108995a1e1f78624a8a97d60ac03}
+      \strng{authorbibnamehash}{41b3108995a1e1f78624a8a97d60ac03}
+      \strng{authornamehash}{0c23b4d48d24f65851e2fc11593256cc}
+      \strng{authorfullhash}{41b3108995a1e1f78624a8a97d60ac03}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks and Learning Systems}
+      \field{number}{12}
+      \field{title}{A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects}
+      \field{volume}{33}
+      \field{year}{2022}
+      \field{pages}{6999\bibrangedash 7019}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1109/TNNLS.2021.3084827
+      \endverb
+      \keyw{Convolutional neural networks;Feature extraction;Neurons;Deep learning;Computer vision;Computer vision;convolutional neural networks (CNNs);deep learning;deep neural networks}
+    \endentry
+    \entry{app13095521}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6857df6af31e2ec9cd57697f964e88c1}{%
+           family={Maurício},
+           familyi={M\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=877feafa2c43a34404b6cf34b618f6b3}{%
+           family={Domingues},
+           familyi={D\bibinitperiod},
+           given={Inês},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=251db60f77d96aa82892e32418380cf1}{%
+           family={Bernardino},
+           familyi={B\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{080dbeb70ca3ea1458237e0ee8d20b52}
+      \strng{fullhash}{2acedeaf18cc3a3ff2f1071355135290}
+      \strng{bibnamehash}{2acedeaf18cc3a3ff2f1071355135290}
+      \strng{authorbibnamehash}{2acedeaf18cc3a3ff2f1071355135290}
+      \strng{authornamehash}{080dbeb70ca3ea1458237e0ee8d20b52}
+      \strng{authorfullhash}{2acedeaf18cc3a3ff2f1071355135290}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Transformers are models that implement a mechanism of self-attention, individually weighting the importance of each part of the input data. Their use in image classification tasks is still somewhat limited since researchers have so far chosen Convolutional Neural Networks for image classification and transformers were more targeted to Natural Language Processing (NLP) tasks. Therefore, this paper presents a literature review that shows the differences between Vision Transformers (ViT) and Convolutional Neural Networks. The state of the art that used the two architectures for image classification was reviewed and an attempt was made to understand what factors may influence the performance of the two deep learning architectures based on the datasets used, image size, number of target classes (for the classification problems), hardware, and evaluated architectures and top results. The objective of this work is to identify which of the architectures is the best for image classification and under what conditions. This paper also describes the importance of the Multi-Head Attention mechanism for improving the performance of ViT in image classification.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{9}
+      \field{title}{Comparing Vision Transformers and Convolutional Neural Networks for Image Classification: A Literature Review}
+      \field{volume}{13}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.3390/app13095521
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/13/9/5521
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/13/9/5521
+      \endverb
+    \endentry
     \entry{pr_monroy2021disvc}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=518d0a79a6837515cfc9408198f007f1}{%
@@ -734,6 +843,72 @@
       \endverb
       \verb{url}
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
+      \endverb
+    \endentry
+    \entry{yunusa2024exploringsynergieshybridcnns}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7d6fa2d27b6e2d9b746dda5e4808cd10}{%
+           family={Yunusa},
+           familyi={Y\bibinitperiod},
+           given={Haruna},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f1f2dc6e88b5e85d106022c26d013be}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Shiyin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53eb9772037ff5178ed7c13b8efec6f7}{%
+           family={Chukkol},
+           familyi={C\bibinitperiod},
+           given={Abdulrahman\bibnamedelimb Hamman\bibnamedelima Adama},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62ec3b9f0382c3e7ebe4312463cadc7e}{%
+           family={Yusuf},
+           familyi={Y\bibinitperiod},
+           given={Abdulganiyu\bibnamedelima Abdu},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e542af8673f673aec7224bdc76e5114}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Isah},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cc83aa9ad326d4c8c6488518782f130}{%
+           family={Lawan},
+           familyi={L\bibinitperiod},
+           given={Adamu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{afca0d1dc7f33ca647ee0a608ddc21e3}
+      \strng{fullhash}{3c7a1068165602fa704b47480c46e399}
+      \strng{bibnamehash}{3c7a1068165602fa704b47480c46e399}
+      \strng{authorbibnamehash}{3c7a1068165602fa704b47480c46e399}
+      \strng{authornamehash}{afca0d1dc7f33ca647ee0a608ddc21e3}
+      \strng{authorfullhash}{3c7a1068165602fa704b47480c46e399}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Exploring the Synergies of Hybrid CNNs and ViTs Architectures for Computer Vision: A survey}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2402.02941
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2402.02941
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2402.02941
       \endverb
     \endentry
   \enddatalist
@@ -1191,6 +1366,115 @@
       \verb 10.1016/j.sciaf.2023.e01679
       \endverb
     \endentry
+    \entry{9451544}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=693dfc50c48b04de716d7c709c7caa80}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zewen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9419610d270972bdd30e81d791d61b96}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee5c593d1df705b04d415b2b51c3c461}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db5dbc87671e893ede1502d00ee0a37a}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Shouheng},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21b6969d672728cb4ea4381d1d8706b5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c23b4d48d24f65851e2fc11593256cc}
+      \strng{fullhash}{41b3108995a1e1f78624a8a97d60ac03}
+      \strng{bibnamehash}{41b3108995a1e1f78624a8a97d60ac03}
+      \strng{authorbibnamehash}{41b3108995a1e1f78624a8a97d60ac03}
+      \strng{authornamehash}{0c23b4d48d24f65851e2fc11593256cc}
+      \strng{authorfullhash}{41b3108995a1e1f78624a8a97d60ac03}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks and Learning Systems}
+      \field{number}{12}
+      \field{title}{A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects}
+      \field{volume}{33}
+      \field{year}{2022}
+      \field{pages}{6999\bibrangedash 7019}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1109/TNNLS.2021.3084827
+      \endverb
+      \keyw{Convolutional neural networks;Feature extraction;Neurons;Deep learning;Computer vision;Computer vision;convolutional neural networks (CNNs);deep learning;deep neural networks}
+    \endentry
+    \entry{app13095521}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6857df6af31e2ec9cd57697f964e88c1}{%
+           family={Maurício},
+           familyi={M\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=877feafa2c43a34404b6cf34b618f6b3}{%
+           family={Domingues},
+           familyi={D\bibinitperiod},
+           given={Inês},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=251db60f77d96aa82892e32418380cf1}{%
+           family={Bernardino},
+           familyi={B\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{080dbeb70ca3ea1458237e0ee8d20b52}
+      \strng{fullhash}{2acedeaf18cc3a3ff2f1071355135290}
+      \strng{bibnamehash}{2acedeaf18cc3a3ff2f1071355135290}
+      \strng{authorbibnamehash}{2acedeaf18cc3a3ff2f1071355135290}
+      \strng{authornamehash}{080dbeb70ca3ea1458237e0ee8d20b52}
+      \strng{authorfullhash}{2acedeaf18cc3a3ff2f1071355135290}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Transformers are models that implement a mechanism of self-attention, individually weighting the importance of each part of the input data. Their use in image classification tasks is still somewhat limited since researchers have so far chosen Convolutional Neural Networks for image classification and transformers were more targeted to Natural Language Processing (NLP) tasks. Therefore, this paper presents a literature review that shows the differences between Vision Transformers (ViT) and Convolutional Neural Networks. The state of the art that used the two architectures for image classification was reviewed and an attempt was made to understand what factors may influence the performance of the two deep learning architectures based on the datasets used, image size, number of target classes (for the classification problems), hardware, and evaluated architectures and top results. The objective of this work is to identify which of the architectures is the best for image classification and under what conditions. This paper also describes the importance of the Multi-Head Attention mechanism for improving the performance of ViT in image classification.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{9}
+      \field{title}{Comparing Vision Transformers and Convolutional Neural Networks for Image Classification: A Literature Review}
+      \field{volume}{13}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.3390/app13095521
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/13/9/5521
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/13/9/5521
+      \endverb
+    \endentry
     \entry{pr_monroy2021disvc}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=518d0a79a6837515cfc9408198f007f1}{%
@@ -1453,6 +1737,72 @@
       \endverb
       \verb{url}
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
+      \endverb
+    \endentry
+    \entry{yunusa2024exploringsynergieshybridcnns}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7d6fa2d27b6e2d9b746dda5e4808cd10}{%
+           family={Yunusa},
+           familyi={Y\bibinitperiod},
+           given={Haruna},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f1f2dc6e88b5e85d106022c26d013be}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Shiyin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53eb9772037ff5178ed7c13b8efec6f7}{%
+           family={Chukkol},
+           familyi={C\bibinitperiod},
+           given={Abdulrahman\bibnamedelimb Hamman\bibnamedelima Adama},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62ec3b9f0382c3e7ebe4312463cadc7e}{%
+           family={Yusuf},
+           familyi={Y\bibinitperiod},
+           given={Abdulganiyu\bibnamedelima Abdu},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e542af8673f673aec7224bdc76e5114}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Isah},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cc83aa9ad326d4c8c6488518782f130}{%
+           family={Lawan},
+           familyi={L\bibinitperiod},
+           given={Adamu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{afca0d1dc7f33ca647ee0a608ddc21e3}
+      \strng{fullhash}{3c7a1068165602fa704b47480c46e399}
+      \strng{bibnamehash}{3c7a1068165602fa704b47480c46e399}
+      \strng{authorbibnamehash}{3c7a1068165602fa704b47480c46e399}
+      \strng{authornamehash}{afca0d1dc7f33ca647ee0a608ddc21e3}
+      \strng{authorfullhash}{3c7a1068165602fa704b47480c46e399}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Exploring the Synergies of Hybrid CNNs and ViTs Architectures for Computer Vision: A survey}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2402.02941
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2402.02941
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2402.02941
       \endverb
     \endentry
   \enddatalist

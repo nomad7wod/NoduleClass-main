@@ -1,23 +1,40 @@
 \chapter{Metodología de la Investigación}
-\section{Diseño de la investigación}
-Según \cite{bk_sampieri2014metodologia} el manipular y encontrar una relación de causa-efecto entre las variables independientes y dependientes son propias de los diseños experimentales.
 
-En el caso de la presente investigación se tiene un diseño experimental porque se pretende establecer la relación entre modelos y técnicas de Deep Learning con el pre-diagnóstico de nódulos tiroideos, esto a través de imágenes de ultrasonido. 
+\section{Diseño de la investigación}
+
+Según \cite{bk_sampieri2014metodologia}, los diseños experimentales se caracterizan por manipular y establecer relaciones de causa-efecto entre variables independientes y dependientes.
+
+En esta investigación, se adopta un diseño experimental, ya que se busca establecer una relación entre las técnicas y modelos de aprendizaje profundo, específicamente redes neuronales convolucionales (CNN), y la detección automatizada de deterioros en pavimentos en Lima Metropolitana. Esto implica manipular los parámetros del modelo, así como las características de los datos utilizados, para analizar el impacto en la precisión y efectividad del sistema desarrollado.
 
 \subsection{Tipo de la investigación}
-Ya definido el diseño que tendrá la investigación, se consideró al tipo experimental puro para seguir en la presente investigación, esto ya que la variable independiente (técnicas, modelos y herramientas de Deep Learning) será manipulada constantemente con el fin de encontrar una relación de causalidad ideal con la variable dependiente. Es decir, todo lo relacionado con el Deep Learning será manipulado reiteradas veces con el objetivo de encontrar el impacto en el pre-diagnóstico de nódulos tiroideos. La manipulación en las técnicas o modelos de Deep Learning también incluye a la de la data a usar, ya que se aplicarán diversas técnicas para realizar una limpieza y extracción de características que ayudarán a la posterior elaboración de un algoritmo de diagnóstico asistido.
+
+Definido el diseño experimental, el tipo de investigación es experimental puro, ya que la variable independiente (técnicas y modelos de CNN) será manipulada para observar su impacto en la variable dependiente (precisión en la detección de deterioros). Esta manipulación incluye ajustes en los hiperparámetros del modelo, selección de características de las imágenes y técnicas de procesamiento de datos para optimizar los resultados.
+
+Además, se realizarán iteraciones con diferentes configuraciones y subconjuntos del dataset, buscando maximizar métricas como precisión, recall y F1-score, indicadores clave del desempeño del modelo en la tarea de clasificación.
 
 \subsection{Enfoque de la investigación}
-Según \cite{bk_sampieri2014metodologia} el enfoque que sigue una forma secuencial donde no se puede evitar ningún paso, y se usan herramientas estadísticas para realizar mediciones, es el enfoque cuantitativo. 
 
-La presente investigación tiene un enfoque cuantitativo, esto dado que la variable independiente usa valores numéricos y/o estadísticos para su medición. Los resultados de la variable de Deep Learning deberán ser medidos a través de valores numéricos y, en mayor medida, estadísticos.
+De acuerdo con \cite{bk_sampieri2014metodologia}, el enfoque cuantitativo utiliza herramientas estadísticas y sigue un proceso estructurado y secuencial para medir variables y analizar relaciones entre ellas.
+
+Esta investigación sigue un enfoque cuantitativo, ya que los resultados del modelo CNN serán evaluados mediante métricas estadísticas que permiten medir su rendimiento en la clasificación de imágenes de pavimentos. Las métricas empleadas, como precisión, recall, F1-score y curva ROC, servirán para evaluar de manera objetiva la efectividad del sistema propuesto.
 
 \subsection{Población}
-La población consiste en imágenes de ultrasonido de la glándula de tiroides con presencia de nódulos. Estas imágenes fueron recolectadas de 2421 pacientes por el Zhujiang Hospital of Southem Medical University y debidamente validadas por los comités de ética institucionales en China.
+
+La población corresponde a imágenes de pavimentos urbanos en diversas condiciones de conservación, recolectadas en el contexto de la ciudad de Lima Metropolitana. Estas imágenes reflejan una variedad de tipos de deterioro comunes en pavimentos, como grietas y fisuras, que afectan la infraestructura vial.
 
 \subsection{Muestra}
-La muestra consiste en 3493 imágenes de ultrasonido de la glándula de tiroides recopiladas de 2421 pacientes.
 
+La muestra está constituida por un conjunto de 30,000 imágenes, clasificadas en dos categorías principales: con grietas y sin grietas. Estas imágenes fueron obtenidas por el autor Omoebamije Oluwaseun, utilizando un dron DJI Mavic 2 Enterprise para tomas aéreas y un smartphone para capturas a nivel del suelo. Las imágenes están en formato RGB, resolución 227x227 píxeles, y han sido etiquetadas previamente para su uso en tareas de clasificación mediante CNN.
+
+\section{Alcance de la Investigación}
+
+El alcance de la investigación incluye el diseño, entrenamiento y evaluación de un modelo CNN que permita clasificar imágenes de pavimentos de manera automática. Esto abarca:
+
+Recolección y preparación del conjunto de datos de imágenes.
+Implementación de técnicas de preprocesamiento y limpieza de datos.
+Entrenamiento de modelos CNN con diferentes configuraciones.
+Evaluación de la efectividad del modelo y comparación con métodos tradicionales de inspección visual.
+El objetivo principal es contribuir a la optimización del mantenimiento vial, reduciendo costos y mejorando la seguridad vial mediante un sistema automatizado para la detección de deterioros.
 \section{Metodología de Implementación de la Solución}
 La metodología por seguir para implementar un modelo de Deep Learning está basado en gran medida en el conocido ciclo de vida de desarrollo de modelos de Inteligencia Artificial, del cual gran parte de los antecedentes mostrados anteriormente siguen con algunas variaciones. 
 
