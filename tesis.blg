@@ -1,23 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'tesis.blg'
-[37] biber-darwin:340> INFO - === Sun Nov 17, 2024, 18:58:00
-[47] Biber.pm:419> INFO - Reading 'tesis.bcf'
-[107] Biber.pm:979> INFO - Found 18 citekeys in bib section 0
-[118] Biber.pm:4419> INFO - Processing section 0
-[123] Biber.pm:4610> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
-[126] bibtex.pm:1713> INFO - LaTeX decoding ...
-[150] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
-[247] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[247] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[247] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[272] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[272] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[272] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[290] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[314] bbl.pm:763> INFO - Output to tesis.bbl
-[314] Biber.pm:131> WARN - ISBN '979-8-3503-0219-6' in entry 'bicbic2023automated' is invalid - run biber with '--validate_datamodel' for details.
-[314] Biber.pm:131> WARN - article entry 'ren2024annotated' (biblio/references.bib): Invalid format '2024/04/22' of date field 'date' - ignoring
-[314] Biber.pm:131> WARN - ISBN '2052-4463' in entry 'ren2024annotated' is invalid - run biber with '--validate_datamodel' for details.
-[314] Biber.pm:131> WARN - article entry 'crackseverity2023dl' (biblio/references.bib): Invalid format '2022/11/01' of date field 'date' - ignoring
-[314] Biber.pm:131> WARN - ISBN '1573-0484' in entry 'crackseverity2023dl' is invalid - run biber with '--validate_datamodel' for details.
-[314] Biber.pm:133> INFO - WARNINGS: 5
+[37] biber-darwin:340> INFO - === Sun Nov 24, 2024, 06:16:10
+[45] Biber.pm:419> INFO - Reading 'tesis.bcf'
+[104] Biber.pm:979> INFO - Found 14 citekeys in bib section 0
+[114] Biber.pm:4419> INFO - Processing section 0
+[119] Biber.pm:4610> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
+[122] bibtex.pm:1713> INFO - LaTeX decoding ...
+[148] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
+[223] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[223] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[223] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[243] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[243] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[243] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[257] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[273] bbl.pm:763> INFO - Output to tesis.bbl
+[273] Biber.pm:131> WARN - legacy month field 'May' in entry 'arrascue2021viabilidad' is not an integer - this will probably not sort properly.
+[273] Biber.pm:131> WARN - ISBN '979-8-3503-0219-6' in entry 'bicbic2023automated' is invalid - run biber with '--validate_datamodel' for details.
+[273] Biber.pm:131> WARN - article entry 'ren2024annotated' (biblio/references.bib): Invalid format '2024/04/22' of date field 'date' - ignoring
+[273] Biber.pm:131> WARN - ISBN '2052-4463' in entry 'ren2024annotated' is invalid - run biber with '--validate_datamodel' for details.
+[273] Biber.pm:131> WARN - article entry 'crackseverity2023dl' (biblio/references.bib): Invalid format '2022/11/01' of date field 'date' - ignoring
+[273] Biber.pm:131> WARN - ISBN '1573-0484' in entry 'crackseverity2023dl' is invalid - run biber with '--validate_datamodel' for details.
+[273] Biber.pm:133> INFO - WARNINGS: 6

@@ -19,6 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{arrascue2021viabilidad}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a4d7f74f9d105460319a3c80885128c}{%
+           family={Arrascue\bibnamedelima Fuentes},
+           familyi={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Carlos\bibnamedelima Alonso},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Pontificia Universidad Católica del Perú, Escuela de Posgrado}%
+      }
+      \list{location}{1}{%
+        {Lima, Perú}%
+      }
+      \strng{namehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{fullhash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{bibnamehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{authorbibnamehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{authornamehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{authorfullhash}{6a4d7f74f9d105460319a3c80885128c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Viabilidad del uso de drones en la detección de fallas/deterioros en caminos mineros de acarreo de mineral/material}
+      \field{type}{Trabajo de investigación para optar el grado académico de Magíster en Regulación, Gestión y Economía Minera}
+      \field{year}{2021}
+    \endentry
     \entry{bicbic2023automated}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=0eb5009de26c17644cb408a6a1f39451}{%
@@ -79,6 +112,51 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1109/TENCON.2023.512
+      \endverb
+    \endentry
+    \entry{cielo2022gestion}{bachelorsthesis}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=257f5c7d91e132964b83553b907655c3}{%
+           family={Cielo\bibnamedelima Jimenez},
+           familyi={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Alexander\bibnamedelima Jeanfranco},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=062c6968beedd3ffe520072f933de5a9}{%
+           family={Sanchez\bibnamedelima Avendaño},
+           familyi={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Carmen\bibnamedelima Nicole},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Ricardo Palma}%
+      }
+      \list{location}{1}{%
+        {Lima, Perú}%
+      }
+      \strng{namehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{fullhash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{bibnamehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{authorbibnamehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{authornamehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{authorfullhash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Disponible bajo acceso abierto en el repositorio institucional.}
+      \field{title}{Propuesta de un sistema de gestión vial para la preservación de pavimentos urbanos en Lima Metropolitana}
+      \field{type}{Tesis de título profesional}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://repositorio.urp.edu.pe/handle/20.500.14138/7818
+      \endverb
+      \verb{url}
+      \verb https://repositorio.urp.edu.pe/handle/20.500.14138/7818
       \endverb
     \endentry
     \entry{bk_geron2022handml}{book}{}
@@ -167,179 +245,6 @@
       \endverb
       \warn{\item article entry 'crackseverity2023dl' (biblio/references.bib): Invalid format '2022/11/01' of date field 'date' - ignoring}
     \endentry
-    \entry{pr_haugen2016amethy}{article}{}
-      \name{author}{16}{}{%
-        {{un=0,uniquepart=base,hash=9e1d0d46848136bc49aab733ad029116}{%
-           family={Haugen},
-           familyi={H\bibinitperiod},
-           given={B.\bibnamedelimi R.},
-           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=31fa1506c568d809378fd44b79abcaba}{%
-           family={Alexander},
-           familyi={A\bibinitperiod},
-           given={E.\bibnamedelimi K.},
-           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cbacaf6e387f4390ea0fe98a92abe291}{%
-           family={Bible},
-           familyi={B\bibinitperiod},
-           given={K.\bibnamedelimi C.},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f6ccd90278cba5305433b239341fca20}{%
-           family={Doherty},
-           familyi={D\bibinitperiod},
-           given={G.\bibnamedelimi M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=609c905ae7e05eb3e6adfb05b8514ba1}{%
-           family={Mandel},
-           familyi={M\bibinitperiod},
-           given={S.\bibnamedelimi J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c2146879e6b6215232878e893430eb44}{%
-           family={Nikiforov},
-           familyi={N\bibinitperiod},
-           given={Y.\bibnamedelimi E.},
-           giveni={Y\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=969d29713ea014d67bef86eaa87e1e7d}{%
-           family={Pacini},
-           familyi={P\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=90e07905b8320861f2137b19ea9b859d}{%
-           family={Randolph},
-           familyi={R\bibinitperiod},
-           given={G.\bibnamedelimi W.},
-           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0dae9e58371cf25fe3fc795d4864e151}{%
-           family={Sawka},
-           familyi={S\bibinitperiod},
-           given={A.\bibnamedelimi M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ea4b3c58c7f7b0b6fac0f98a16449c5c}{%
-           family={Schlumberger},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=568402d9c110883edd618900fcec09d8}{%
-           family={Schuff},
-           familyi={S\bibinitperiod},
-           given={K.\bibnamedelimi G.},
-           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=74be9c8bb840c6c9064ec541a7c3e74c}{%
-           family={Sherman},
-           familyi={S\bibinitperiod},
-           given={S.\bibnamedelimi I.},
-           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=902a5e41f049e90459a7e3b16626f741}{%
-           family={Sosa},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd5cb34414c2cb2d931a6d3716659a28}{%
-           family={Steward},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi L.},
-           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8db786cf8e17a0e580e0f5ee9a497a93}{%
-           family={Tuttle},
-           familyi={T\bibinitperiod},
-           given={R.\bibnamedelimi M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ba4e5c3b5008a67653d8fc4934532757}{%
-           family={Wartofsky},
-           familyi={W\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9fedb97a5eefc1a2742eb529d28a69c5}
-      \strng{fullhash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \strng{bibnamehash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \strng{authorbibnamehash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \strng{authornamehash}{9fedb97a5eefc1a2742eb529d28a69c5}
-      \strng{authorfullhash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Thyroid}
-      \field{number}{1}
-      \field{title}{2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer}
-      \field{volume}{26}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 133}
-      \range{pages}{133}
-      \verb{doi}
-      \verb 10.1089/THY.2015.0020
-      \endverb
-    \endentry
-    \entry{pr_he2016deepres}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Kaiming},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5e72bc22dbcf0984c6d113d280e36990}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xiangyu},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb295293acacd54387339079ebbe4ead}{%
-           family={Ren},
-           familyi={R\bibinitperiod},
-           given={Shaoqing},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f85751488058842b5777c7b4074077b5}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Las Vegas, Nevada, Estados Unidos}%
-      }
-      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
-      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \strng{authorbibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
-      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition}
-      \field{title}{Deep residual learning for image recognition}
-      \field{year}{2016}
-      \verb{doi}
-      \verb 10.1109/CVPR.2016.90
-      \endverb
-    \endentry
     \entry{bk_hurbans2020grokking}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5cd8a44616f0f8c4313c1d60dbcc4e5c}{%
@@ -367,110 +272,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Grokking Artificial Intelligence Algorithms}
       \field{year}{2020}
-    \endentry
-    \entry{ws_inkawhich2024dcganpytorch}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
-           family={Inkawhich},
-           familyi={I\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{DCGAN Tutorial}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-      \verb{url}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-    \endentry
-    \entry{ws_izco2018bdcp}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
-           family={Izco},
-           familyi={I\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{fullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{bibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorbibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authornamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorfullhash}{469102ff09ab2baf2f859838c2dae750}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Base de Datos Corporativa de Personas}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
-      \endverb
-      \verb{url}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
-      \endverb
-    \endentry
-    \entry{pr_JERBI2023autoclassViTGAN}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=a411472e75a59ce26fbf1b8bad011114}{%
-           family={JERBI},
-           familyi={J\bibinitperiod},
-           given={Feres},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f471786824b9d89615f487a4e4337e11}{%
-           family={ABOUDI},
-           familyi={A\bibinitperiod},
-           given={Noura},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=772c083ed8d5ece14e5267c553ab2704}{%
-           family={KHLIFA},
-           familyi={K\bibinitperiod},
-           given={Nawres},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{fullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{bibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authorbibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authornamehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{authorfullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific African}
-      \field{title}{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}
-      \field{volume}{20}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.1016/j.sciaf.2023.e01679
-      \endverb
     \endentry
     \entry{9451544}{article}{}
       \name{author}{5}{}{%
@@ -530,6 +331,50 @@
       \endverb
       \keyw{Convolutional neural networks;Feature extraction;Neurons;Deep learning;Computer vision;Computer vision;convolutional neural networks (CNNs);deep learning;deep neural networks}
     \endentry
+    \entry{9378047}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b7bf9d5ed152046bb0058888ffc26f68}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8481f2e17cd34114e4937e7be9189eb}{%
+           family={Mussah},
+           familyi={M\bibinitperiod},
+           given={Abdul\bibnamedelima Rashid},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6665611d4b37449b2daaccad1e40f75e}{%
+           family={Adu-Gyamfi},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Yaw},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab2a435a80fd4898c01677df7bf1a906}
+      \strng{fullhash}{cec0f1998fbf46639cddefe17446cd62}
+      \strng{bibnamehash}{cec0f1998fbf46639cddefe17446cd62}
+      \strng{authorbibnamehash}{cec0f1998fbf46639cddefe17446cd62}
+      \strng{authornamehash}{ab2a435a80fd4898c01677df7bf1a906}
+      \strng{authorfullhash}{cec0f1998fbf46639cddefe17446cd62}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE International Conference on Big Data (Big Data)}
+      \field{title}{Deep Learning Frameworks for Pavement Distress Classification: A Comparative Analysis}
+      \field{year}{2020}
+      \field{pages}{5577\bibrangedash 5583}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/BigData50022.2020.9378047
+      \endverb
+      \keyw{Deep learning;Roads;High performance computing;Training data;Predictive models;Big Data;Network architecture;deep convolutional neural networks;deep learning;pavement distress;road crack detection}
+    \endentry
     \entry{app13095521}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6857df6af31e2ec9cd57697f964e88c1}{%
@@ -581,24 +426,21 @@
       \verb https://www.mdpi.com/2076-3417/13/9/5521
       \endverb
     \endentry
-    \entry{pr_monroy2021disvc}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=518d0a79a6837515cfc9408198f007f1}{%
-           family={Monroy\bibnamedelima Malca},
-           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Virginia\bibnamedelimb del\bibnamedelima Pilar},
-           giveni={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
+    \entry{mivivienda2021movilidad}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fa37ee2252f3aa47d77e551656de7f02}{%
+           family={{Ministerio de Vivienda, Construcción y Saneamiento}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=a8849bdc30d6b88e461517b669ac5364}{%
+           family={{Instituto Metropolitano de Planificación}},
+           familyi={I\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Universidad ESAN}%
-      }
-      \strng{namehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{fullhash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{bibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorbibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authornamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorfullhash}{518d0a79a6837515cfc9408198f007f1}
+      \strng{namehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{fullhash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{bibnamehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{authorbibnamehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{authornamehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{authorfullhash}{87f787ceec4aade3c295cac61e9de037}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -606,42 +448,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Diseño de un sistema de visión computacional para el pre-diagnóstico de la enfermedad de Parkinson a partir de la escritura de una persona}
-      \field{type}{Tesis de grado}
+      \field{note}{Disponible en línea, consultado el 24 de noviembre de 2024}
+      \field{title}{Visión estratégica movilidad urbana PLAN MET Lima al 2040}
       \field{year}{2021}
       \verb{urlraw}
-      \verb https://hdl.handle.net/20.500.12640/2262
+      \verb https://www.imp.gob.pe/wp-content/uploads/2021/04/MOVILIDADURBANA.pdf
       \endverb
       \verb{url}
-      \verb https://hdl.handle.net/20.500.12640/2262
-      \endverb
-    \endentry
-    \entry{ws_oms2022cancert}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5b1551aad81d4130cd5a1bb90cf506c1}{%
-           family={{Organización Mundial de la Salud}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{fullhash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{bibnamehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{authorbibnamehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{authornamehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{authorfullhash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Cancer Today}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://gco.iarc.who.int/today/en/dataviz/maps-heatmap?mode=population&key=crude_rate&types=0&age_start=0&cancers=32&sexes=2
-      \endverb
-      \verb{url}
-      \verb https://gco.iarc.who.int/today/en/dataviz/maps-heatmap?mode=population&key=crude_rate&types=0&age_start=0&cancers=32&sexes=2
+      \verb https://www.imp.gob.pe/wp-content/uploads/2021/04/MOVILIDADURBANA.pdf
       \endverb
     \endentry
     \entry{ren2024annotated}{article}{}
@@ -805,44 +619,6 @@
       \endverb
       \verb{url}
       \verb https://books.google.com.pe/books?id=oLbjoQEACAAJ
-      \endverb
-    \endentry
-    \entry{pr_simonyan2015vdcn}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=9d16b7284df92c9adaee86c37ab992df}{%
-           family={Simonyan},
-           familyi={S\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c72fc39e94030f67717052309266a44d}{%
-           family={Zisserman},
-           familyi={Z\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{bibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorbibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings}
-      \field{title}{Very deep convolutional networks for large-scale image recognition}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
-      \endverb
-      \verb{url}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
       \endverb
     \endentry
     \entry{yunusa2024exploringsynergieshybridcnns}{misc}{}
@@ -913,6 +689,39 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{arrascue2021viabilidad}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a4d7f74f9d105460319a3c80885128c}{%
+           family={Arrascue\bibnamedelima Fuentes},
+           familyi={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Carlos\bibnamedelima Alonso},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Pontificia Universidad Católica del Perú, Escuela de Posgrado}%
+      }
+      \list{location}{1}{%
+        {Lima, Perú}%
+      }
+      \strng{namehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{fullhash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{bibnamehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{authorbibnamehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{authornamehash}{6a4d7f74f9d105460319a3c80885128c}
+      \strng{authorfullhash}{6a4d7f74f9d105460319a3c80885128c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Viabilidad del uso de drones en la detección de fallas/deterioros en caminos mineros de acarreo de mineral/material}
+      \field{type}{Trabajo de investigación para optar el grado académico de Magíster en Regulación, Gestión y Economía Minera}
+      \field{year}{2021}
+    \endentry
     \entry{bicbic2023automated}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=0eb5009de26c17644cb408a6a1f39451}{%
@@ -973,6 +782,51 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1109/TENCON.2023.512
+      \endverb
+    \endentry
+    \entry{cielo2022gestion}{bachelorsthesis}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=257f5c7d91e132964b83553b907655c3}{%
+           family={Cielo\bibnamedelima Jimenez},
+           familyi={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Alexander\bibnamedelima Jeanfranco},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=062c6968beedd3ffe520072f933de5a9}{%
+           family={Sanchez\bibnamedelima Avendaño},
+           familyi={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Carmen\bibnamedelima Nicole},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Ricardo Palma}%
+      }
+      \list{location}{1}{%
+        {Lima, Perú}%
+      }
+      \strng{namehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{fullhash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{bibnamehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{authorbibnamehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{authornamehash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \strng{authorfullhash}{f1aa7c9fbc12af6c5a2d6c33547f5762}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Disponible bajo acceso abierto en el repositorio institucional.}
+      \field{title}{Propuesta de un sistema de gestión vial para la preservación de pavimentos urbanos en Lima Metropolitana}
+      \field{type}{Tesis de título profesional}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://repositorio.urp.edu.pe/handle/20.500.14138/7818
+      \endverb
+      \verb{url}
+      \verb https://repositorio.urp.edu.pe/handle/20.500.14138/7818
       \endverb
     \endentry
     \entry{bk_geron2022handml}{book}{}
@@ -1061,179 +915,6 @@
       \endverb
       \warn{\item article entry 'crackseverity2023dl' (biblio/references.bib): Invalid format '2022/11/01' of date field 'date' - ignoring}
     \endentry
-    \entry{pr_haugen2016amethy}{article}{}
-      \name{author}{16}{}{%
-        {{un=0,uniquepart=base,hash=9e1d0d46848136bc49aab733ad029116}{%
-           family={Haugen},
-           familyi={H\bibinitperiod},
-           given={B.\bibnamedelimi R.},
-           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=31fa1506c568d809378fd44b79abcaba}{%
-           family={Alexander},
-           familyi={A\bibinitperiod},
-           given={E.\bibnamedelimi K.},
-           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cbacaf6e387f4390ea0fe98a92abe291}{%
-           family={Bible},
-           familyi={B\bibinitperiod},
-           given={K.\bibnamedelimi C.},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f6ccd90278cba5305433b239341fca20}{%
-           family={Doherty},
-           familyi={D\bibinitperiod},
-           given={G.\bibnamedelimi M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=609c905ae7e05eb3e6adfb05b8514ba1}{%
-           family={Mandel},
-           familyi={M\bibinitperiod},
-           given={S.\bibnamedelimi J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c2146879e6b6215232878e893430eb44}{%
-           family={Nikiforov},
-           familyi={N\bibinitperiod},
-           given={Y.\bibnamedelimi E.},
-           giveni={Y\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=969d29713ea014d67bef86eaa87e1e7d}{%
-           family={Pacini},
-           familyi={P\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=90e07905b8320861f2137b19ea9b859d}{%
-           family={Randolph},
-           familyi={R\bibinitperiod},
-           given={G.\bibnamedelimi W.},
-           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0dae9e58371cf25fe3fc795d4864e151}{%
-           family={Sawka},
-           familyi={S\bibinitperiod},
-           given={A.\bibnamedelimi M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ea4b3c58c7f7b0b6fac0f98a16449c5c}{%
-           family={Schlumberger},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=568402d9c110883edd618900fcec09d8}{%
-           family={Schuff},
-           familyi={S\bibinitperiod},
-           given={K.\bibnamedelimi G.},
-           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=74be9c8bb840c6c9064ec541a7c3e74c}{%
-           family={Sherman},
-           familyi={S\bibinitperiod},
-           given={S.\bibnamedelimi I.},
-           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=902a5e41f049e90459a7e3b16626f741}{%
-           family={Sosa},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd5cb34414c2cb2d931a6d3716659a28}{%
-           family={Steward},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi L.},
-           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8db786cf8e17a0e580e0f5ee9a497a93}{%
-           family={Tuttle},
-           familyi={T\bibinitperiod},
-           given={R.\bibnamedelimi M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ba4e5c3b5008a67653d8fc4934532757}{%
-           family={Wartofsky},
-           familyi={W\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9fedb97a5eefc1a2742eb529d28a69c5}
-      \strng{fullhash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \strng{bibnamehash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \strng{authorbibnamehash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \strng{authornamehash}{9fedb97a5eefc1a2742eb529d28a69c5}
-      \strng{authorfullhash}{d1bbfa5debdeaddc9df12e58b0e35b0d}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Thyroid}
-      \field{number}{1}
-      \field{title}{2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer}
-      \field{volume}{26}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 133}
-      \range{pages}{133}
-      \verb{doi}
-      \verb 10.1089/THY.2015.0020
-      \endverb
-    \endentry
-    \entry{pr_he2016deepres}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Kaiming},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5e72bc22dbcf0984c6d113d280e36990}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xiangyu},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb295293acacd54387339079ebbe4ead}{%
-           family={Ren},
-           familyi={R\bibinitperiod},
-           given={Shaoqing},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f85751488058842b5777c7b4074077b5}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Las Vegas, Nevada, Estados Unidos}%
-      }
-      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
-      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \strng{authorbibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
-      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition}
-      \field{title}{Deep residual learning for image recognition}
-      \field{year}{2016}
-      \verb{doi}
-      \verb 10.1109/CVPR.2016.90
-      \endverb
-    \endentry
     \entry{bk_hurbans2020grokking}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5cd8a44616f0f8c4313c1d60dbcc4e5c}{%
@@ -1261,110 +942,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Grokking Artificial Intelligence Algorithms}
       \field{year}{2020}
-    \endentry
-    \entry{ws_inkawhich2024dcganpytorch}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
-           family={Inkawhich},
-           familyi={I\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{DCGAN Tutorial}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-      \verb{url}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-    \endentry
-    \entry{ws_izco2018bdcp}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
-           family={Izco},
-           familyi={I\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{fullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{bibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorbibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authornamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorfullhash}{469102ff09ab2baf2f859838c2dae750}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Base de Datos Corporativa de Personas}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
-      \endverb
-      \verb{url}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
-      \endverb
-    \endentry
-    \entry{pr_JERBI2023autoclassViTGAN}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=a411472e75a59ce26fbf1b8bad011114}{%
-           family={JERBI},
-           familyi={J\bibinitperiod},
-           given={Feres},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f471786824b9d89615f487a4e4337e11}{%
-           family={ABOUDI},
-           familyi={A\bibinitperiod},
-           given={Noura},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=772c083ed8d5ece14e5267c553ab2704}{%
-           family={KHLIFA},
-           familyi={K\bibinitperiod},
-           given={Nawres},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{fullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{bibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authorbibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authornamehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{authorfullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific African}
-      \field{title}{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}
-      \field{volume}{20}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.1016/j.sciaf.2023.e01679
-      \endverb
     \endentry
     \entry{9451544}{article}{}
       \name{author}{5}{}{%
@@ -1424,6 +1001,50 @@
       \endverb
       \keyw{Convolutional neural networks;Feature extraction;Neurons;Deep learning;Computer vision;Computer vision;convolutional neural networks (CNNs);deep learning;deep neural networks}
     \endentry
+    \entry{9378047}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b7bf9d5ed152046bb0058888ffc26f68}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8481f2e17cd34114e4937e7be9189eb}{%
+           family={Mussah},
+           familyi={M\bibinitperiod},
+           given={Abdul\bibnamedelima Rashid},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6665611d4b37449b2daaccad1e40f75e}{%
+           family={Adu-Gyamfi},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Yaw},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab2a435a80fd4898c01677df7bf1a906}
+      \strng{fullhash}{cec0f1998fbf46639cddefe17446cd62}
+      \strng{bibnamehash}{cec0f1998fbf46639cddefe17446cd62}
+      \strng{authorbibnamehash}{cec0f1998fbf46639cddefe17446cd62}
+      \strng{authornamehash}{ab2a435a80fd4898c01677df7bf1a906}
+      \strng{authorfullhash}{cec0f1998fbf46639cddefe17446cd62}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE International Conference on Big Data (Big Data)}
+      \field{title}{Deep Learning Frameworks for Pavement Distress Classification: A Comparative Analysis}
+      \field{year}{2020}
+      \field{pages}{5577\bibrangedash 5583}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/BigData50022.2020.9378047
+      \endverb
+      \keyw{Deep learning;Roads;High performance computing;Training data;Predictive models;Big Data;Network architecture;deep convolutional neural networks;deep learning;pavement distress;road crack detection}
+    \endentry
     \entry{app13095521}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6857df6af31e2ec9cd57697f964e88c1}{%
@@ -1475,24 +1096,21 @@
       \verb https://www.mdpi.com/2076-3417/13/9/5521
       \endverb
     \endentry
-    \entry{pr_monroy2021disvc}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=518d0a79a6837515cfc9408198f007f1}{%
-           family={Monroy\bibnamedelima Malca},
-           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Virginia\bibnamedelimb del\bibnamedelima Pilar},
-           giveni={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
+    \entry{mivivienda2021movilidad}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fa37ee2252f3aa47d77e551656de7f02}{%
+           family={{Ministerio de Vivienda, Construcción y Saneamiento}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=a8849bdc30d6b88e461517b669ac5364}{%
+           family={{Instituto Metropolitano de Planificación}},
+           familyi={I\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Universidad ESAN}%
-      }
-      \strng{namehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{fullhash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{bibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorbibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authornamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorfullhash}{518d0a79a6837515cfc9408198f007f1}
+      \strng{namehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{fullhash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{bibnamehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{authorbibnamehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{authornamehash}{87f787ceec4aade3c295cac61e9de037}
+      \strng{authorfullhash}{87f787ceec4aade3c295cac61e9de037}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1500,42 +1118,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Diseño de un sistema de visión computacional para el pre-diagnóstico de la enfermedad de Parkinson a partir de la escritura de una persona}
-      \field{type}{Tesis de grado}
+      \field{note}{Disponible en línea, consultado el 24 de noviembre de 2024}
+      \field{title}{Visión estratégica movilidad urbana PLAN MET Lima al 2040}
       \field{year}{2021}
       \verb{urlraw}
-      \verb https://hdl.handle.net/20.500.12640/2262
+      \verb https://www.imp.gob.pe/wp-content/uploads/2021/04/MOVILIDADURBANA.pdf
       \endverb
       \verb{url}
-      \verb https://hdl.handle.net/20.500.12640/2262
-      \endverb
-    \endentry
-    \entry{ws_oms2022cancert}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5b1551aad81d4130cd5a1bb90cf506c1}{%
-           family={{Organización Mundial de la Salud}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{fullhash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{bibnamehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{authorbibnamehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{authornamehash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \strng{authorfullhash}{5b1551aad81d4130cd5a1bb90cf506c1}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Cancer Today}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://gco.iarc.who.int/today/en/dataviz/maps-heatmap?mode=population&key=crude_rate&types=0&age_start=0&cancers=32&sexes=2
-      \endverb
-      \verb{url}
-      \verb https://gco.iarc.who.int/today/en/dataviz/maps-heatmap?mode=population&key=crude_rate&types=0&age_start=0&cancers=32&sexes=2
+      \verb https://www.imp.gob.pe/wp-content/uploads/2021/04/MOVILIDADURBANA.pdf
       \endverb
     \endentry
     \entry{ren2024annotated}{article}{}
@@ -1699,44 +1289,6 @@
       \endverb
       \verb{url}
       \verb https://books.google.com.pe/books?id=oLbjoQEACAAJ
-      \endverb
-    \endentry
-    \entry{pr_simonyan2015vdcn}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=9d16b7284df92c9adaee86c37ab992df}{%
-           family={Simonyan},
-           familyi={S\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c72fc39e94030f67717052309266a44d}{%
-           family={Zisserman},
-           familyi={Z\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{bibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorbibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings}
-      \field{title}{Very deep convolutional networks for large-scale image recognition}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
-      \endverb
-      \verb{url}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
       \endverb
     \endentry
     \entry{yunusa2024exploringsynergieshybridcnns}{misc}{}

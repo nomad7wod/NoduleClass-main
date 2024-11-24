@@ -1,10 +1,24 @@
 \chapter{Metodología de la Investigación}
 
+
+
 \section{Diseño de la investigación}
 
 Según \cite{bk_sampieri2014metodologia}, los diseños experimentales se caracterizan por manipular y establecer relaciones de causa-efecto entre variables independientes y dependientes.
 
 En esta investigación, se adopta un diseño experimental, ya que se busca establecer una relación entre las técnicas y modelos de aprendizaje profundo, específicamente redes neuronales convolucionales (CNN), y la detección automatizada de deterioros en pavimentos en Lima Metropolitana. Esto implica manipular los parámetros del modelo, así como las características de los datos utilizados, para analizar el impacto en la precisión y efectividad del sistema desarrollado.
+
+\subsection{Alcance de la Investigación}
+
+El alcance de la investigación incluye el diseño, entrenamiento y evaluación de un modelo CNN que permita clasificar imágenes de pavimentos de manera automática. Esto abarca:
+
+Recolección y preparación del conjunto de datos de imágenes.
+Implementación de técnicas de preprocesamiento y limpieza de datos.
+Entrenamiento de modelos CNN con diferentes configuraciones.
+Evaluación de la efectividad del modelo y comparación con métodos tradicionales de inspección visual.
+El objetivo principal es contribuir a la optimización del mantenimiento vial, reduciendo costos y mejorando la seguridad vial mediante un sistema automatizado para la detección de deterioros.
+
+
 
 \subsection{Tipo de la investigación}
 
@@ -18,24 +32,144 @@ De acuerdo con \cite{bk_sampieri2014metodologia}, el enfoque cuantitativo utiliz
 
 Esta investigación sigue un enfoque cuantitativo, ya que los resultados del modelo CNN serán evaluados mediante métricas estadísticas que permiten medir su rendimiento en la clasificación de imágenes de pavimentos. Las métricas empleadas, como precisión, recall, F1-score y curva ROC, servirán para evaluar de manera objetiva la efectividad del sistema propuesto.
 
-\subsection{Población}
+
+\section{Población}
 
 La población corresponde a imágenes de pavimentos urbanos en diversas condiciones de conservación, recolectadas en el contexto de la ciudad de Lima Metropolitana. Estas imágenes reflejan una variedad de tipos de deterioro comunes en pavimentos, como grietas y fisuras, que afectan la infraestructura vial.
 
-\subsection{Muestra}
+\section{Muestra}
 
 La muestra está constituida por un conjunto de 30,000 imágenes, clasificadas en dos categorías principales: con grietas y sin grietas. Estas imágenes fueron obtenidas por el autor Omoebamije Oluwaseun, utilizando un dron DJI Mavic 2 Enterprise para tomas aéreas y un smartphone para capturas a nivel del suelo. Las imágenes están en formato RGB, resolución 227x227 píxeles, y han sido etiquetadas previamente para su uso en tareas de clasificación mediante CNN.
 
-\section{Alcance de la Investigación}
 
-El alcance de la investigación incluye el diseño, entrenamiento y evaluación de un modelo CNN que permita clasificar imágenes de pavimentos de manera automática. Esto abarca:
+\section{Operacionalización de Variables}
 
-Recolección y preparación del conjunto de datos de imágenes.
-Implementación de técnicas de preprocesamiento y limpieza de datos.
-Entrenamiento de modelos CNN con diferentes configuraciones.
-Evaluación de la efectividad del modelo y comparación con métodos tradicionales de inspección visual.
-El objetivo principal es contribuir a la optimización del mantenimiento vial, reduciendo costos y mejorando la seguridad vial mediante un sistema automatizado para la detección de deterioros.
-\section{Metodología de Implementación de la Solución}
+La operacionalización de las variables de esta investigación se describe en la Tabla \ref{tab:operacionalizacion_variables}, donde se especifican las dimensiones, indicadores y las fórmulas correspondientes para la medición de cada variable.
+
+\begin{table}[H]
+	\centering
+	\caption{Operacionalización de variables para la Hipótesis General}
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{3cm}|}
+	\hline
+	\textbf{Variable} & \textbf{Definición Conceptual} & \textbf{Definición Operacional} & \textbf{Fórmula del Indicador} \\ \hline
+	Implementación de un modelo automatizado basado en redes neuronales convolucionales (VI) & Uso de redes neuronales para la clasificación automatizada de deterioros en pavimentos. & Desarrollo, entrenamiento y validación de un modelo CNN para clasificar imágenes de pavimentos. & \(\text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total}}\) \\ \hline
+	Calidad en la detección de deterioros en pavimentos (VD) & Grado de acierto en la identificación de daños en pavimentos. & Porcentaje de detección correcta de los deterioros en un conjunto de datos de prueba. & \(\text{Sensibilidad} = \frac{\text{TP}}{\text{TP} + \text{FN}}\) \\ \hline
+	Eficiencia en el mantenimiento de vías (VD) & Optimización de recursos para reparar vías. & Reducción en el tiempo y los costos asociados con la reparación de vías, basada en la clasificación automatizada. & \(\text{Tasa de mejora} = \frac{\text{Antes} - \text{Después}}{\text{Antes}}\) \\ \hline
+	Seguridad vial (VD) & Reducción de accidentes relacionados con deterioros en las vías. & Número de accidentes evitados debido al mantenimiento oportuno basado en detecciones automatizadas. & \(\text{Proporción} = \frac{\text{Accidentes evitados}}{\text{Total accidentes previos}}\) \\ \hline
+	\end{tabular}
+	\end{table}
+	
+\begin{table}[H]
+	\centering
+	\caption{Operacionalización de variables para la Hipótesis Específica 1}
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{3cm}|}
+	\hline
+	\textbf{Variable} & \textbf{Definición Conceptual} & \textbf{Definición Operacional} & \textbf{Fórmula del Indicador} \\ \hline
+	Uso de redes neuronales convolucionales (VI) & Uso de algoritmos CNN para procesar imágenes y clasificarlas. & Entrenamiento de una red neuronal convolucional para clasificar imágenes en ``deterioradas'' y ``no deterioradas''. & \(\text{Precisión del modelo} = \frac{\text{Correctas}}{\text{Total clasificadas}}\) \\ \hline
+	Precisión en la clasificación del estado de los pavimentos (VD) & Nivel de exactitud en la identificación del estado de los pavimentos. & Porcentaje de coincidencia entre la predicción del modelo y las etiquetas reales del conjunto de prueba. & \(\text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total}}\) \\ \hline
+	\end{tabular}
+\end{table}
+
+		
+\begin{table}[H]
+	\centering
+	\caption{Operacionalización de variables para la Hipótesis Específica 2}
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{3cm}|}
+	\hline
+	\textbf{Variable} & \textbf{Definición Conceptual} & \textbf{Definición Operacional} & \textbf{Fórmula del Indicador} \\ \hline
+	Detección automatizada en tiempo real (VI) & Uso de modelos para identificar daños de manera inmediata. & Implementación de sistemas de detección que procesen datos en tiempo real para clasificar imágenes de pavimentos. & \(\text{Tiempo promedio} = \frac{\text{Total tiempo}}{\text{N imágenes}}\) \\ \hline
+	Tiempo de respuesta para reparaciones (VD) & Lapso entre la identificación de daños y su reparación. & Medición en días u horas entre la detección del deterioro y la acción correctiva. & \(\text{Reducción} = \frac{\text{Tiempo antes} - \text{Tiempo después}}{\text{Tiempo antes}}\) \\ \hline
+	Costos de mantenimiento a largo plazo (VD) & Gasto total asociado a reparaciones preventivas y correctivas en un periodo. & Comparación de los costos acumulados entre métodos tradicionales y el sistema automatizado. & \(\text{Diferencia} = \text{Costo Tradicional} - \text{Costo Automatizado}\) \\ \hline
+	\end{tabular}
+\end{table}
+			
+\begin{table}[H]
+	\centering
+	\caption{Operacionalización de variables para la Hipótesis Específica 3}
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{3cm}|}
+	\hline
+	\textbf{Variable} & \textbf{Definición Conceptual} & \textbf{Definición Operacional} & \textbf{Fórmula del Indicador} \\ \hline
+	Priorización de zonas más deterioradas (VI) & Identificación de áreas críticas para reparación con base en el nivel de daño. & Uso del modelo CNN para asignar prioridad a las áreas con mayores índices de deterioro. & \(\text{Índice de prioridad} = \frac{\text{Deterioro}}{\text{Área total}}\) \\ \hline
+	Eficiencia en la asignación de recursos (VD) & Optimización del uso de personal, materiales y tiempo en función de las prioridades detectadas. & Comparación de recursos asignados antes y después de implementar el modelo automatizado. & \(\text{Tasa de eficiencia} = \frac{\text{Producción después}}{\text{Recursos después}}\) \\ \hline
+	\end{tabular}
+\end{table}
+				
+
+\noindent
+Las fórmulas de los indicadores son las siguientes:
+\begin{itemize}
+    \item \textbf{Precisión (Accuracy)}: Relación entre predicciones correctas y el total de predicciones. 
+    \[
+    Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
+    \]
+    \item \textbf{Recall (Sensibilidad)}: Proporción de verdaderos positivos respecto a todas las muestras positivas. 
+    \[
+    Recall = \frac{TP}{TP + FN}
+    \]
+    \item \textbf{F1-score}: Media armónica de precisión y recall. 
+    \[
+    F1 = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}
+    \]
+    \item \textbf{ROC-AUC}: Área bajo la curva ROC, calculada mediante integración numérica de los valores de TPR y FPR a diferentes umbrales.
+    \item \textbf{Eficiencia computacional}: Evaluada a través del tiempo de entrenamiento (en segundos o minutos) y la memoria utilizada (en GB o MB).
+\end{itemize}
+
+
+\section{Técnicas de Recolección de Datos}
+
+En la presente investigación, las técnicas de recolección de datos empleadas son las siguientes:
+
+\begin{itemize}
+    \item \textbf{Obtención del dataset:} Se utilizaron fuentes secundarias para recolectar un conjunto de datos previamente elaborado, específicamente el dataset titulado *Concrete and Pavement Crack Dataset*. Este dataset contiene imágenes de superficies de concreto y pavimento clasificadas en dos categorías: con grietas y sin grietas. Las imágenes fueron recopiladas mediante el uso de un dron DJI Mavic 2 Enterprise y un smartphone, con una resolución de 227 x 227 píxeles en formato RGB.
+    \item \textbf{Validación del dataset:} Antes de su uso, el dataset fue revisado para garantizar que todas las imágenes cumplan con los estándares de calidad necesarios, verificando la clasificación correcta de las categorías (crack y non-crack).
+    \item \textbf{Preparación de los datos:} Se realizaron procesos de preprocesamiento para adaptar los datos al entrenamiento del modelo de redes neuronales convolucionales (CNN), incluyendo la normalización, el cambio de tamaño de las imágenes y la división del dataset en conjuntos de entrenamiento, validación y prueba.
+\end{itemize}
+
+Estas técnicas aseguran la correcta disposición y calidad de los datos para el análisis y entrenamiento del modelo.
+
+
+\section{Técnicas para el Procesamiento y Análisis de Información}
+
+El procesamiento y análisis de la información se llevó a cabo mediante el uso de técnicas basadas en aprendizaje profundo y análisis estadístico. Los pasos seguidos fueron los siguientes:
+
+\begin{itemize}
+    %%falta item de adquisición
+	\item \textbf{Adquisición del dataset:} El conjunto de datos utilizado para entrenar y evaluar el modelo será obtenido mediante una recopilación de imágenes de pavimentos en Lima Metropolitana, capturadas a través de drones, cámaras móviles o bases de datos públicas. Estas imágenes serán procesadas y etiquetadas manualmente para su clasificación en diferentes tipos de deterioros.
+	\item \textbf{Preprocesamiento:} Las imágenes fueron sometidas a procesos de normalización y aumento de datos (\textit{data augmentation}) para mejorar la calidad y diversidad del dataset.
+    \item \textbf{Entrenamiento del modelo:} Se entrenaron redes neuronales convolucionales (CNN) utilizando el conjunto de entrenamiento del dataset. Durante este proceso, se ajustaron los hiperparámetros clave, como la tasa de aprendizaje y el tamaño del lote.
+    \item \textbf{Validación y ajuste:} Se utilizó el conjunto de validación para ajustar los hiperparámetros del modelo y prevenir el sobreajuste.
+    \item \textbf{Evaluación:} El modelo final fue evaluado con el conjunto de prueba utilizando métricas de rendimiento como precisión (\textit{accuracy}), sensibilidad (\textit{recall}), y F1-score.
+\end{itemize}
+
+El flujo del proceso se ilustra en el Diagrama %\ref{fig:procesamiento_analisis}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/diagrama.png}
+		\caption[Diagrama del procesamiento y análisis de la información]{Diagrama del procesamiento y análisis de la información. \\
+		Fuente: Elaboración propia.}
+		%\label{3:fig301}
+	\end{center}
+\end{figure}
+
+
+
+
+
+%\section{Metodología de Implementación de la Solución}
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{comment}
 La metodología por seguir para implementar un modelo de Deep Learning está basado en gran medida en el conocido ciclo de vida de desarrollo de modelos de Inteligencia Artificial, del cual gran parte de los antecedentes mostrados anteriormente siguen con algunas variaciones. 
 
 En el presente caso, se pretende desarrollar un modelo de Deep Learning capaz de brindar ayuda en el diagnóstico médico; por tal motivo, se optó por basar metodología de esta investigación en la de \cite{pr_monroy2021disvc}, modificándolo en cierta medida en el contexto de nódulos tiroideos e imágenes de ultrasonido. En la Figura \ref{3:fig301} se presenta de forma gráfica la metodología a seguir.
@@ -152,5 +286,5 @@ Además, se determinó el presupuesto necesario para la elaboración completa de
 	\end{flushleft}
 \end{table}
 
-
+\end{comment}
 

@@ -3,58 +3,43 @@
 \contentsline {chapter}{Introducción}{2}{chapter*.8}%
 \contentsline {chapter}{\numberline {I}Planteamiento del Problema}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Formulación del Problema}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Problema General}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Problemas Específicos}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.2}Formulación del Problema}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Problema General}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Problemas Específicos}{4}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{4}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Objetivo General}{4}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Objetivos Específicos}{4}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Hipótesis}{4}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Hipótesis General}{4}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Hipótesis Específicos}{4}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Justificación de la Investigación}{5}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Teórica}{5}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Práctica}{5}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Metodológica}{5}{subsection.1.5.3}%
-\contentsline {section}{\numberline {1.6}Delimitación del Estudio}{5}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Espacial}{5}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Temporal}{5}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Conceptual}{5}{subsection.1.6.3}%
-\contentsline {chapter}{\numberline {II}Marco Teórico}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Deep Learning}{11}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{13}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Inteligencia Artficial}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Machine Learning}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Perceptrón}{14}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Perceptrón Multicapa}{14}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Redes Neuronales Convolucionales (CNN)}{15}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Arquitectura de Redes y Modelos Híbridos}{16}{subsection.2.3.6}%
-\contentsline {section}{\numberline {2.4}Hipótesis}{18}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{18}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{18}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{20}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{20}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{20}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{21}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Alcance de la Investigación}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Metodología de Implementación de la Solución}{21}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{23}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{25}{section.3.5}%
-\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Determinación y evaluación de alternativas de solución}{27}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Propuesta solución}{30}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Planeamiento y descripción de Actividades}{30}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Desarrollo de actividades}{33}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Medición de la solución}{76}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{76}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Simulación de solución}{78}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{81}{chapter.5}%
-\contentsline {chapter}{Referencias}{84}{chapter*.102}%
-\contentsline {chapter}{Anexos}{86}{section*.103}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{87}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{88}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{89}{section.Alph0.3}%
+\contentsline {section}{\numberline {1.4}Justificación de la Investigación}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Teórica}{5}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Práctica}{5}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Metodológica}{5}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Delimitación del Estudio}{5}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Espacial}{5}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Temporal}{5}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Conceptual}{5}{subsection.1.5.3}%
+\contentsline {chapter}{\numberline {II}Marco Teórico}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Deep Learning}{12}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Inteligencia Artficial}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Machine Learning}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Perceptrón}{15}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Perceptrón Multicapa}{15}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Redes Neuronales Convolucionales (CNN)}{16}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Arquitectura de Redes y Modelos Híbridos}{17}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Hipótesis}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{19}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Alcance de la Investigación}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Tipo de la investigación}{21}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Enfoque de la investigación}{22}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Población}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Muestra}{22}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Operacionalización de Variables}{22}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Técnicas de Recolección de Datos}{25}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Técnicas para el Procesamiento y Análisis de Información}{25}{section.3.6}%
+\contentsline {chapter}{Referencias}{27}{chapter*.26}%
+\contentsline {chapter}{Anexos}{29}{section*.27}%
